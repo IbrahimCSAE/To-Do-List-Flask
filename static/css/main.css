@@ -9,6 +9,7 @@ div.form{
     width: 300px;
     margin-top: 30px;
     
+    
   }
 
 table{
@@ -16,16 +17,49 @@ table{
    
 }
 
-html{
-    background-image:url(minimalism-post-it-notes-yellow-green-wallpaper.jpg);
-    
+th{
+  padding-left: 40px;
+  padding-right: 40px;
+  color: yellowgreen;
+  
+  font-size: 20px;
+
+}
+td{
+  color: yellowgreen;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  background-image: url("bg.png");
+  background-repeat: repeat;
 }
 
 .content{
-  background-color: white;
+  
   width: 500px;
   height: 700px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
+
+h1{
+  padding-top: 20px;
+  padding-bottom: 25px;
+  color: coral;
+  
+  
+
+}
+h4{
+  color:coral
+}
+
+
+

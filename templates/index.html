@@ -5,6 +5,8 @@
 {% endblock %}
 
 {% block body %}
+<div id="particles-js"><canvas class="particles-js-canvas-el" width="1557" height="1562" style="width: 100%; height: 100%;"></canvas></div>
+
 <div class="content">
     <h1 style="text-align: center">Task Master</h1>
     {% if tasks|length < 1 %}
@@ -36,5 +38,11 @@
             <input type="submit" value="Add Task">
         </form>
     </div>
-</div>
+    <script type="text/javascript" src="/static/js/particles.min.js"></script>
+    <script>
+      if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) != true) {
+        particlesJS.load('particles-js', '/static/js/particles.json', function() {});
+      }
+    </script>
+</div></div>
 {% endblock %}
